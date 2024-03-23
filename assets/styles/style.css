@@ -49,3 +49,10 @@ nav a:hover {
   margin-top: 20 px;
 }
 
+.jumbotron {
+  font-size: 20px;
+  padding: 60 px;
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+}
