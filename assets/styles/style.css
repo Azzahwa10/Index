@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Quicksand', sans-serif;
 
@@ -14,12 +18,14 @@ footer {
   padding: 20 px;
   color: white;
   background-color: #00a2c6;
+  
   text-align: center;
   font-weight: bold;
 }
 
 nav a {
   font-size: 18px;
+  
   font-weight: 400;
   text-decoration: none;
 
@@ -37,12 +43,13 @@ nav a:hover {
 .featured-image {
   width: 100%;
   max-height: 300px;
+  
   object-fit: Cover;
   object-position: center;
 }
 
 .profile img {
-  width: 200px;
+  max-width: 200px;
 }
 
 .card {
@@ -50,7 +57,6 @@ nav a:hover {
   border-radius: 5px;
 
   padding: 20px;
-
 }
 
 .jumbotron {
@@ -59,12 +65,6 @@ nav a:hover {
   background-color: #00c8eb;
   text-align: center;
   color: white;
-}
-
-nav li {
-  display: inline;
-  list-style-type: none;
-  margin-right: 20px;
 }
 
 nav ul {
@@ -82,7 +82,7 @@ nav {
   background-color: #00a2c6;
   padding: 5px;
 
-  positio: sticky;
+  position: sticky;
   top: 0;
 }
 
@@ -98,7 +98,7 @@ main {
   flex:5;
 
   display: flex;
-  flex-flow: column-nowrap;
+  flex-flow: column nowrap;
 
   gap: 1rem 2 rem;
 }
